@@ -1,0 +1,34 @@
+remote_theme: CaptainIRS/hacker-plus-theme
+
+title: "r8q's Blog"
+author: "r8q"
+description: "My CTF articles and cybersecurity notes"
+url: "https://r8q.github.io/sugarci"
+baseurl: "/sugarci"
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-github-metadata
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  writeups:
+    output: true
+
+exclude:
+  - "scripts"
+  - "/*/*/_problems/*"
+
+github_username: r8q
+instagram: azra.sekerci__
+
+# Diğer sosyal medya eklemek istersen buraya
