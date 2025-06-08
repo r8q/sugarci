@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: r8q/sugarci
+  branch: master
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "writeups"
+    label: "Write-ups"
+    folder: "_writeups"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
