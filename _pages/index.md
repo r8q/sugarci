@@ -2,28 +2,28 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Metin **kalın**, _italik_, ~~üstü çizili~~ veya `anahtar kelime` olabilir.
 
-[Link to another page](./writeups.html).
+[Başka bir sayfaya bağlantı](./writeups.html).
 
-There should be whitespace between paragraphs.
+Paragraflar arasında boşluk olmalıdır.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Paragraflar arasında boşluk olmalıdır. Projeniz hakkında bilgi içeren bir README veya dosya eklemenizi öneririz.
 
-# Header 1
+# Başlık 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Bu, bir başlıktan sonra gelen normal bir paragraftır. GitHub, sürüm kontrolü ve işbirliği için bir kod barındırma platformudur. Sizin ve başkalarının projeler üzerinde her yerden birlikte çalışmasını sağlar.
 
-## Header 2
+## Başlık 2
 
-> This is a blockquote following a header.
+> Bu, bir başlıktan sonra gelen bir alıntıdır.
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> Bir şey yeterince önemliyse, olasılıklar aleyhinize olsa bile yaparsınız.
 
-### Header 3
+### Başlık 3
 
 ```js
-// Javascript code with syntax highlighting.
+// Sözdizimi vurgulu Javascript kodu.
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
@@ -31,7 +31,7 @@ var fun = function lang(l) {
 ```
 
 ```ruby
-# Ruby code with syntax highlighting
+# Sözdizimi vurgulu Ruby kodu
 GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
@@ -41,7 +41,7 @@ end
   class="command-line" 
   data-prompt="kali@kali $" 
   data-output="4"
-><code class="language-bash"># Bash script with shell
+><code class="language-bash"># Kabuk ile Bash betiği
 echo "flag{i_4m_a_f14g}" > flag.txt
 cat flag.txt
 flag{i_4m_a_f14g}
@@ -51,8 +51,8 @@ rm flag.txt</code>
 <pre class="line-numbers" 
   data-start="1" 
   data-line="6-7"
-><code class="language-dart">// Dart code with line numbers
-// Line 6 and 7 are highlighted
+><code class="language-dart">// Satır numaralı Dart kodu
+// 6. ve 7. satırlar vurgulanmıştır
 
 import 'dart:ui';
 
@@ -94,62 +94,61 @@ void registerPlugins(PluginRegistry registry) {
 
 * * *
 
-### Here is an unordered list:
+### Sırasız liste örneği:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+*   Öğe foo
+*   Öğe bar
+*   Öğe baz
+*   Öğe zip
 
-### And an ordered list:
+### Sıralı liste örneği:
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+1.  Birinci öğe
+1.  İkinci öğe
+1.  Üçüncü öğe
+1.  Dördüncü öğe
 
-### And a nested list:
+### İç içe liste örneği:
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+- seviye 1 öğe
+  - seviye 2 öğe
+  - seviye 2 öğe
+    - seviye 3 öğe
+    - seviye 3 öğe
+- seviye 1 öğe
+  - seviye 2 öğe
+  - seviye 2 öğe
+  - seviye 2 öğe
+- seviye 1 öğe
+  - seviye 2 öğe
+  - seviye 2 öğe
+- seviye 1 öğe
 
-### Small image
+### Küçük resim
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
+### Büyük resim
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Dallanma](https://guides.github.com/activities/hello-world/branching.png)
 
-
-### Definition lists can be used with HTML syntax.
+### Tanım listeleri HTML sözdizimiyle kullanılabilir.
 
 <dl>
-<dt>Name</dt>
+<dt>Adı</dt>
 <dd>Godzilla</dd>
-<dt>Born</dt>
+<dt>Doğum</dt>
 <dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dt>Doğum Yeri</dt>
+<dd>Japonya</dd>
+<dt>Renk</dt>
+<dd>Yeşil</dd>
 </dl>
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+Uzun, tek satırlık kod blokları kaydırılmalıdır. Çok uzunsa yatay kaydırma olmalıdır. Bu satır bunu göstermek için yeterince uzun olmalı.
 ```
 
 ```
-The final element.
+Son öğe.
 ```

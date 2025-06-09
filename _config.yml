@@ -9,22 +9,12 @@ disqus_forum_shortname:
 htb_badge_no:
 thm_badge_no:
 show_thm_htb_badges_in_nav: false
-<<<<<<< HEAD
 github_username: 
 hacker_news:
 instagram: azrasekerci__
 
 pinterest:
 telegram: tekrarbaslat
-=======
-github_username: r8q
-gitlab:
-medium:
-linkedin: Azra Sekerci
-instagram:azrasekerci__
-telegram: tekrarbaslat
-
->>>>>>> 36a5ac4 (Güncelleme yapıldı)
 
 markdown: kramdown
 kramdown:
