@@ -5,8 +5,6 @@ backend:
   auth_type: implicit
   api_root: https://api.github.com
   auth_endpoint: https://github.com/login/oauth/authorize
-  .... 
-  auth_endpoint: https://api.netlify.com/auth
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
