@@ -1,19 +1,18 @@
 backend:
   name: github
   repo: r8q/sugarci
-  branch: master
+  branch: main
 
-media_folder: "assets/images"
-public_folder: "/assets/images"
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
 
 collections:
-  - name: "writeups"
-    label: "Write-ups"
-    folder: "_writeups"
+  - name: "blog"
+    label: "Blog Yazıları"
+    folder: "_blog/2025"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Tarih", name: "date", widget: "datetime" }
+      - { label: "İçerik", name: "body", widget: "markdown" }

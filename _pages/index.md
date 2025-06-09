@@ -69,28 +69,28 @@ void registerPlugins(PluginRegistry registry) {
 }</code></pre>
 
 
-#### Header 4
+#### Başlık 4
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Bu, bir başlıktan sonra gelen sırasız bir listedir.
+*   Bu, bir başlıktan sonra gelen sırasız bir listedir.
+*   Bu, bir başlıktan sonra gelen sırasız bir listedir.
 
-##### Header 5
+##### Başlık 5
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  Bu, bir başlıktan sonra gelen sıralı bir listedir.
+2.  Bu, bir başlıktan sonra gelen sıralı bir listedir.
+3.  Bu, bir başlıktan sonra gelen sıralı bir listedir.
 
-###### Header 6
+###### Başlık 6
 
-| head1        | head two          | three |
+| başlık1      | başlık iki         | üç    |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| tamam        | iyi isveç balığı   | güzel |
+| stokta yok   | iyi ve bol         | güzel |
+| tamam        | iyi `oreos`        | hmm   |
+| tamam        | iyi `zoute` drop   | yumm  |
 
-### There's a horizontal rule below this.
+### Aşağıda bir yatay çizgi var.
 
 * * *
 
