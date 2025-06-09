@@ -1,6 +1,8 @@
+
+
 backend:
   repository: r8q/sugarci
-  name: github
+  name: git-gateway
   repo: r8q/sugarci
   branch: master
 media_folder: "assets/images/uploads"
