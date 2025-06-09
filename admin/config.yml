@@ -1,8 +1,10 @@
-
 backend:
   name: github
   repo: r8q/sugarci
   branch: master
+  auth_type: implicit
+  api_root: https://api.github.com
+  auth_endpoint: https://github.com/login/oauth/authorize
   .... 
   auth_endpoint: https://api.netlify.com/auth
 media_folder: "assets/images/uploads"
