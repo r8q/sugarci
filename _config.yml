@@ -9,21 +9,12 @@ disqus_forum_shortname: captainirs-github-io
 htb_badge_no:
 thm_badge_no:
 show_thm_htb_badges_in_nav: false
-github_username: CaptainIRS
-gitlab:
-medium:
-stackoverflow:
+github_username: 
 hacker_news:
-linkedin: rinish-sam
-twitch:
-youtube:
-twitter: CaptainIRS
-facebook:
-instagram:
-reddit:
+instagram: azrasekerci__
+
 pinterest:
-telegram:
-steam:
+telegram: tekrarbaslat
 
 markdown: kramdown
 kramdown:
