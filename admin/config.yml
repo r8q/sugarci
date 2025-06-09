@@ -1,4 +1,5 @@
 backend:
+  repository: r8q/sugarci
   name: github
   repo: r8q/sugarci
   branch: master
